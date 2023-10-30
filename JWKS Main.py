@@ -12,7 +12,7 @@ hostName = "localhost"
 serverPort = 8080
 
 # Initialize SQLite database
-db_connection = sqlite3.connect('C:/Users/Blake\Desktop/JWKS_Part_2/totally_not_my_privateKeys.db')
+db_connection = sqlite3.connect('totally_not_my_privateKeys.db')
 db_cursor = db_connection.cursor()
 
 # Create a table to store keys
